@@ -1,0 +1,17 @@
+#Tue May 31 21:44:18 BRT 2022
+Clouds=1
+Brightness=2.0
+waterCG=0.3
+defskybox=true
+waterCB=0.325
+Penumbra=true
+Contrast=1.5
+RainReflections=true
+WeatherAngle=true
+customStars=false
+Volumetric_Lighting=true
+morningFog=true
+Lens_Flares=true
+Moonlight=0.0015
+waterA=2.0
+waterCR=0.275
