@@ -1,0 +1,13 @@
+*
+!.gitignore
+!eula.txt
+!java_path.txt
+!run.bat
+!server.properties
+!user_jvm_args.txt
+!mods/
+!mods/*
+!config/
+!config/*
+!libraries/
+!libraries/*

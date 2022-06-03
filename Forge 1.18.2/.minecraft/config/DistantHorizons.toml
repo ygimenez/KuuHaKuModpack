@@ -35,7 +35,7 @@ optionsButton = true
 			# This indicates how quickly fake chunks decrease in quality the further away they are. 
 			# Higher settings will render higher quality fake chunks farther away, 
 			# but will increase memory and GPU usage.
-			horizontalScale = 24
+			horizontalScale = 12
 			# This indicates how quickly fake chunks decrease in quality the further away they are. 
 			# Higher settings will render higher quality fake chunks farther away, 
 			# but will increase memory and GPU usage.
@@ -285,7 +285,7 @@ optionsButton = true
 		#
 		# Note that in server, distant generation is always off. 
 		#
-		enableDistantGeneration = true
+		enableDistantGeneration = false
 		distanceGenerationMode = "FEATURES"
 		# How should block and sky lights be processed for distant generation? 
 		#
@@ -296,7 +296,7 @@ optionsButton = true
 		# FANCY: Use actaul light engines to generate proper values. 
 		#
 		# This will effect generation speed, but not the rendering performance.
-		lightGenerationMode = "FANCY"
+		lightGenerationMode = "FAST"
 		# In what priority should fake chunks be generated outside the vanilla render distance? 
 		#
 		# FAR_FIRST 
@@ -321,7 +321,7 @@ optionsButton = true
 		# and NEAR_FIRST when connected to a server. 
 		#
 		# This shouldn't affect performance.
-		generationPriority = "AUTO"
+		generationPriority = "NEAR_FIRST"
 		# When generating fake chunks, what blocks should be ignored? 
 		# Ignored blocks don't affect the height of the fake chunk, but might affect the color. 
 		# So using BOTH will prevent snow covered blocks from appearing one block too tall, 
@@ -333,7 +333,7 @@ optionsButton = true
 		# BOTH: Only use full solid blocks when generating fake chunks 
 		#
 		# This wont't affect performance.
-		blocksToAvoid = "NONE"
+		blocksToAvoid = "BOTH"
 
 	[client.multiplayer]
 		# What multiplayer save folders should be named. 
@@ -386,7 +386,7 @@ optionsButton = true
 			# so if they add up to more threads than your CPU has cores, 
 			# that shouldn't cause an issue. 
 			#
-			numberOfWorldGenerationThreads = 4.0
+			numberOfWorldGenerationThreads = 1.0
 			# How many threads are used when building vertex buffers? 
 			# (The things sent to your GPU to draw the fake chunks). 
 			#
