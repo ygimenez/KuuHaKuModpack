@@ -5,9 +5,9 @@
 !run.bat
 !server.properties
 !user_jvm_args.txt
-!mods/
+!mods
 !mods/*
-!config/
+!config
 !config/*
-!libraries/
+!libraries
 !libraries/*
