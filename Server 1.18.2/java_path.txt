@@ -1,1 +1,1 @@
-
+C:\Users\yagog\.jdks\openjdk-17.0.1\bin\java.exe
