@@ -1,9 +1,12 @@
+.minecraft/Distant_Horizons_server_data
 .minecraft/authlib-injector.log
 .minecraft/coremods
+.minecraft/crash-reports
 .minecraft/defaultconfigs
 .minecraft/icon.png
 .minecraft/local
 .minecraft/logs
+.minecraft/mods.7z
 .minecraft/saves
 .minecraft/schematics
 .minecraft/screenshots
@@ -12,3 +15,6 @@
 .minecraft/texturepacks
 .minecraft/usercache.json
 .minecraft/usernamecache.json
+patches
+server
+server.7z

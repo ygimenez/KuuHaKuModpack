@@ -12,6 +12,6 @@ IF "%JDK%"=="" (
   PAUSE
   java_path.txt
 ) ELSE (
-  %JDK% @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.18.2-40.1.14/win_args.txt %*
+  %JDK% @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.18.2-40.1.68/win_args.txt nogui %*
   PAUSE
 )

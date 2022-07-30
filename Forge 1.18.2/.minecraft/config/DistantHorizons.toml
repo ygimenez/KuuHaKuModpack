@@ -1,6 +1,7 @@
 _Versions = "1.6.3a"
 # Show the lod button in the options screen next to fov
 optionsButton = true
+_version = 1
 
 [client]
 
@@ -285,7 +286,7 @@ optionsButton = true
 		#
 		# Note that in server, distant generation is always off. 
 		#
-		enableDistantGeneration = false
+		enableDistantGeneration = true
 		distanceGenerationMode = "FEATURES"
 		# How should block and sky lights be processed for distant generation? 
 		#

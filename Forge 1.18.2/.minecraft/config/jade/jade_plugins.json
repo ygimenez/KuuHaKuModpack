@@ -34,6 +34,13 @@
     "redstone": true,
     "fe": true
   },
+  "create": {
+    "contraption_inv": true,
+    "blaze_burner": true,
+    "crafting_blueprint": true,
+    "exact_block": true,
+    "placard": true
+  },
   "jade": {
     "block_states": false,
     "entity_armor": true,

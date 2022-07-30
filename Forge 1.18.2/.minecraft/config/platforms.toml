@@ -1,3 +1,10 @@
+#Sets Frame climbing behaviour
+#NONE: Can not be climbed
+#LADDER: Ascend via walking. Descends automatically. Sneak holds position.
+#SCAFFOLD: Ascend via jumping. Descend via sneaking. Automatically holds position.
+#HYBRID: Ascend via walking. Descend via sneaking. Automatically holds position.
+#Allowed Values: NONE, LADDER, SCAFFOLD, HYBRID
+frameClimbMode = "HYBRID"
 
 #Craft Output Control
 [crafting]
